@@ -1,16 +1,16 @@
 {
-    "version":  "1.0.2",
-    "build":  3,
-    "date":  "16 Oct 2026",
-    "notes":  "- Edit task (was \"Change the task\") has everything New task has, the checklist too\n- Who checks it: choose anyone who is not doing the task\n- Two or more people: \"Everyone does their part\" or \"Any one of them can do it\"\n- Checklist: common, or items for each person; rename, move, remove items later\n- Shared tasks show \"Put on hold\" and \"I can\u0027t do this\" together\n- Phone: buttons always above the phone\u0027s own bar; the update box scrolls; tabs fit big text\n- Windows: Seyal lives in one fixed place with a Desktop shortcut, and updates install there by themselves",
+    "version":  "1.0.3",
+    "build":  4,
+    "date":  "3 Nov 2026",
+    "notes":  "- Notepad: your own notes, only you see them. Pin them, link a project, add a checklist, make one a task\r\n- Phone: home screen widgets (Your next job, Task counts, Notepad) and shortcuts on a long press of the icon\r\n- Windows: Ctrl+Alt+N writes a note from any program; New note, New task, My tasks from the taskbar and the icon by the clock\r\n- Fields no longer get a dark outline while you type; only a warning outlines a field, in red",
     "android":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.2/seyal.apk",
-                    "sha256":  "c9cf10ccdda83b1b9d08236727ec4f66b2c6fa42229de5076483796907bf43be",
-                    "size":  62134591
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal.apk",
+                    "sha256":  "3da0dcf5edbe19e1b83d143fbcbc1cc153899dc6ab0dd107ef5ea13e950e7828",
+                    "size":  63519021
                 },
     "windows":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.2/seyal-windows.zip",
-                    "sha256":  "bbce4daa52f3355c91fe204410ecf6c052480ce46ba9138e061b4a28d3b164b9",
-                    "size":  14174830
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal-windows.zip",
+                    "sha256":  "0a7468edda07b5ccd5471242fb344b82d450da6779c2bd8e6c902ced5b06ffb6",
+                    "size":  14465005
                 }
 }
