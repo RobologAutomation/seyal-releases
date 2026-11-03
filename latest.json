@@ -2,15 +2,15 @@
     "version":  "1.0.3",
     "build":  4,
     "date":  "3 Nov 2026",
-    "notes":  "- Notepad: your own notes, only you see them. Pin them, link a project, add a checklist, make one a task\r\n- Phone: home screen widgets (Your next job, Task counts, Notepad) and shortcuts on a long press of the icon\r\n- Windows: Ctrl+Alt+N writes a note from any program; New note, New task, My tasks from the taskbar and the icon by the clock\r\n- Fields no longer get a dark outline while you type; only a warning outlines a field, in red",
+    "notes":  "- Notepad: your own notes, only you see them. Pin them, link a project, add a checklist, make one a task\r\n- Phone: home screen widgets (Your next job, Task counts, Notepad) and shortcuts on a long press of the icon\r\n- Windows: Ctrl+Alt+N writes a note from any program; New note, New task, My tasks from the taskbar and the icon by the clock\r\n- Windows: stick a note on the desktop (\"Stick on the desktop\" in the note). Drag it anywhere, size it by its edges; it stays there after a restart\r\n- Fields no longer get a dark outline while you type; only a warning outlines a field, in red",
     "android":  {
                     "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal.apk",
-                    "sha256":  "3da0dcf5edbe19e1b83d143fbcbc1cc153899dc6ab0dd107ef5ea13e950e7828",
-                    "size":  63519021
+                    "sha256":  "9ea474e2f698029932a2a9045214410d0993db2a0a5c305cc9671609c86d85a2",
+                    "size":  63617389
                 },
     "windows":  {
                     "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal-windows.zip",
-                    "sha256":  "0a7468edda07b5ccd5471242fb344b82d450da6779c2bd8e6c902ced5b06ffb6",
-                    "size":  14465005
+                    "sha256":  "d4c47499342327c3a953b847d97ed8779f282bbb21b4c08455f31af993b3b13f",
+                    "size":  14496749
                 }
 }
