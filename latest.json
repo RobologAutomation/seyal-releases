@@ -1,16 +1,16 @@
 {
-    "version":  "1.0.3",
-    "build":  4,
-    "date":  "3 Nov 2026",
-    "notes":  "- Notepad: your own notes, only you see them. Pin them, link a project, add a checklist, make one a task\r\n- Phone: home screen widgets (Your next job, Task counts, Notepad) and shortcuts on a long press of the icon\r\n- Windows: Ctrl+Alt+N writes a note from any program; New note, New task, My tasks from the taskbar and the icon by the clock\r\n- Windows: stick a note on the desktop (\"Stick on the desktop\" in the note). Drag it anywhere, size it by its edges; it stays there after a restart\r\n- Fields no longer get a dark outline while you type; only a warning outlines a field, in red",
+    "version":  "1.0.3.1",
+    "build":  5,
+    "date":  "4 Nov 2026",
+    "notes":  "- Tasks with two or more people: everyone now sees their own part. When one person starts or sends it to check, the others still see it as Not started, with Start work\r\n- Windows: after an update, a Seyal pinned to the taskbar or kept somewhere else opens the new version too",
     "android":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal.apk",
-                    "sha256":  "9ea474e2f698029932a2a9045214410d0993db2a0a5c305cc9671609c86d85a2",
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3.1/seyal.apk",
+                    "sha256":  "a567d65d18f3a331e74acb5d534a42a21333774c340bb365f30747f3339ed435",
                     "size":  63617389
                 },
     "windows":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3/seyal-windows.zip",
-                    "sha256":  "d4c47499342327c3a953b847d97ed8779f282bbb21b4c08455f31af993b3b13f",
-                    "size":  14496749
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.0.3.1/seyal-windows.zip",
+                    "sha256":  "99c5be8ff931588de27be5e48a503069257b655e824d2d74d509485c6b801891",
+                    "size":  14497912
                 }
 }
