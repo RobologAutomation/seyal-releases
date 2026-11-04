@@ -54,6 +54,23 @@ try {
     $link.IconLocation = $exe
     $link.Save()
   }
+  # Any other shortcut to a Seyal elsewhere (a taskbar pin, an old copy in
+  # Downloads) would keep opening the old version: point it here too.
+  try {
+    $pins = Join-Path $env:APPDATA 'Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar'
+    foreach ($place in @([Environment]::GetFolderPath('Desktop'), [Environment]::GetFolderPath('Programs'), $pins)) {
+      if (-not (Test-Path $place)) { continue }
+      foreach ($file in Get-ChildItem $place -Filter '*.lnk' -Recurse -ErrorAction SilentlyContinue) {
+        $link = $shell.CreateShortcut($file.FullName)
+        if ($link.TargetPath -like '*\seyal.exe' -and $link.TargetPath -ne $exe) {
+          $link.TargetPath = $exe
+          $link.WorkingDirectory = $dir
+          $link.IconLocation = $exe
+          $link.Save()
+        }
+      }
+    }
+  } catch {}
   Say 'Seyal is on your Desktop and in the Start menu.'
   Start-Process $exe
   Say 'Done. Seyal is starting.'
