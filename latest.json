@@ -1,16 +1,16 @@
 {
-    "version":  "1.1.0",
-    "build":  7,
-    "date":  "23 Nov 2026",
-    "notes":  "- Inventory inside Seyal: the store, every in and out through a cart, tools given out and taken back, racks, QR labels and low-stock alerts\n- Buying is now in Inventory: raise a PO, or enter an order already placed; receive goods line by line, part deliveries too\n- Scan the supplier\u0027s invoice: its lines, total and currency fill in; the total is taken exactly as printed, no GST added\n- What comes on an order goes into the store, each line into its store item (or a new one); \"Put them in the store\" for orders received before\n- Orders can be edited, cancelled or deleted until goods come\n- Extend a task\u0027s due date, or ask for more time on a task given to you\n- Run more than one company: tap the company name on top to switch, start another company or ask to join one\n- Phone widgets open the right screen again (no more \"Page Not Found\")",
+    "version":  "1.1.0.1",
+    "build":  8,
+    "date":  "24 Nov 2026",
+    "notes":  "- Orders go Waiting approval, Ordered, In transit, Received; once placed an order is In transit unless you pick \"Not sent yet\", then \"Mark in transit\" later\n- Inventory Home counts orders at each stage and shows \"What happened\": who asked, approved, sent, received or took out what, in plain words\n- Enter an order already placed in four steps: what was bought, the invoice, when, a note; supplier, invoice number, date, currency and total come from the invoice\n- \"Ordered on\" and the invoice total are now saved on an order already placed\n- Windows: the Buying, Store and Tools filters are small chips with counts in one row\n- A task on hold is no longer late; resuming one past its due date asks for a new date first\n- Switch between your accounts without signing out; sign-in says plainly which person and company are in use",
     "android":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0/seyal.apk",
-                    "sha256":  "ef0ddae2fd4f55be8cf6d9e89395a0588ad18224b62ed8b537a3e6b9540cc178",
-                    "size":  82870547
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.1/seyal.apk",
+                    "sha256":  "4120ec0a26be84aabdbbef36cacb0058a05da8a5dd203d5ca236d106fec42a27",
+                    "size":  83116307
                 },
     "windows":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0/seyal-windows.zip",
-                    "sha256":  "c411b3729516985a1c7017a27da459a5e40070cd1e93399d94ff300f62aaeb7a",
-                    "size":  14875159
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.1/seyal-windows.zip",
+                    "sha256":  "731ab78ed39fd2389fc698cd0eb44920381c6d0e5461d054d6c28f5ca10db046",
+                    "size":  14904350
                 }
 }
