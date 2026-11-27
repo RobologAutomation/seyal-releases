@@ -1,16 +1,16 @@
 {
-    "version":  "1.1.0.2",
-    "build":  9,
-    "date":  "26 Nov 2026",
-    "notes":  "- Everyone in the company can add items to the store, not only the store keepers; each in and out is kept in Moves with their name\n- Scanning a supplier\u0027s reel or bag label reads its part number and quantity: \"Add it to the store\" fills them in, and an item already in the store goes to the cart with that quantity\n- Works with Yageo, Mouser, DigiKey and LCSC style labels; the date code and lot go in the item\u0027s note\n- Invoices from Tally and similar software are read line by line again: product name, quantity, unit, rate and amount as printed, and the invoice total\n- The e-Way Bill page\u0027s \"Tax Rate\" (18) is no longer taken as the price",
+    "version":  "1.1.0.3",
+    "build":  10,
+    "date":  "27 Nov 2026",
+    "notes":  "- One scan of a reel label adds it to the store: the name, value, make, category and quantity come from the label and its part number, no typing needed\n- Example: RC0603FR-0730KL reads as \"Resistor 30kΩ 1% 0603\", Yageo, 5000 pcs\n- Reads resistors, ceramic, tantalum and electrolytic capacitors and inductors from Yageo, UniOhm, Vishay, Panasonic, KOA, Walsin, Samsung, Bourns, Murata, TDK, KEMET, AVX, Fenghua, Nichicon, Sunlord and Coilcraft part numbers\n- Diodes, transistors, regulators, logic chips and microcontrollers get their kind in the name (Diode 1N4007, Transistor BC547)\n- A reel of something already in the store goes in with one tap (\"Put 5000 pcs in the store\"), saved in Moves\n- \"Change it first\" still opens the form with everything filled in",
     "android":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.2/seyal.apk",
-                    "sha256":  "35496f73a9d1741b8954f440029c86833a0c13634dee43adea99bde48135632e",
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.3/seyal.apk",
+                    "sha256":  "6d7fa0fde43273d3a9681ede01f5a1d1d7cdb0655082b271f42366f9f85f23ca",
                     "size":  83132691
                 },
     "windows":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.2/seyal-windows.zip",
-                    "sha256":  "828e778a926e99a9de3779fed4ce1190ce651c89f670b3044c3012f70ee52d80",
-                    "size":  14904551
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.3/seyal-windows.zip",
+                    "sha256":  "7458c33f8919b824fbeb9e61817e4bda9907d3688b16917c3fb05b629859b634",
+                    "size":  14907448
                 }
 }
