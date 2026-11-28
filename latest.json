@@ -1,16 +1,16 @@
 {
-    "version":  "1.1.0.4",
-    "build":  11,
-    "date":  "27 Nov 2026",
-    "notes":  "- Scanning a reel that is already in the store says so: who put it in, when and on which cart, so it is not counted twice\n- Another reel of the same lot can still go in, with its own button\n- Yageo DataMatrix labels are read (31P, 30P, 32P, lot, quantity), also as USB scanners type them\n- Scans that come in with shift held or in the wrong case are put right\n- Electrolytic capacitors such as JKM470M2WBKAM25 read as \"Electrolytic capacitor 47µF 450V\"",
+    "version":  "1.1.0.5",
+    "build":  12,
+    "date":  "28 Nov 2026",
+    "notes":  "- Inventory is rebuilt around buying: Home (what needs you, every order stage by stage for founders), Projects, Orders and Store\n- Orders go requested, quoted, approved, PO raised, ordered, on the way, arrived, received\n- Quotations on a request: supplier, amount, days and file; approving can pick one\n- How an order is coming: courier with tracking id, or bus with number, driver and arrival time; a reminder rings before it arrives\n- What arrives is checked line by line, by scan or by hand, and goes into the store only on \"Add to store\"\n- A project\u0027s BOM can come from an Excel or CSV file\n- Scan is the middle button of the Inventory bar; a scanned item offers Take out and Put in directly\n- QR label sheets print whole: the bottom row no longer runs off the page",
     "android":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.4/seyal.apk",
-                    "sha256":  "6f3d9e14e39e01dbbb1c32e4bf6e41ca9e91cae8f8f5824f0e9282f5827fadd9",
-                    "size":  83132691
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.5/seyal.apk",
+                    "sha256":  "f43ed423c6bb084dd68b542e041a8ef88a1cd2d8e8cc5d1cdc0b5afd5125d2e3",
+                    "size":  84230419
                 },
     "windows":  {
-                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.4/seyal-windows.zip",
-                    "sha256":  "d3e31bf7806e29becef34d3ed1fcdb9b3318cf8101a7fb5cd28d55884951bcbb",
-                    "size":  14908681
+                    "url":  "https://github.com/RobologAutomation/seyal-releases/releases/download/v1.1.0.5/seyal-windows.zip",
+                    "sha256":  "21d2883e8f785c9155ba72defbe453bc6cde5db846bab1ea0993c88f2aa2a051",
+                    "size":  15051026
                 }
 }
